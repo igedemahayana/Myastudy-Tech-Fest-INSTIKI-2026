@@ -1,0 +1,5 @@
+copy command dibawah pada terminal dan running
+
+pastikan direktori sudah ada pada TailwindCSS
+
+./tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch

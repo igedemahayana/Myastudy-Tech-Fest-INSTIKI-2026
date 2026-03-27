@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myastudy - Personal Study Architect</title>
+  <link rel="icon" href="assets/svg/Logo-Study-Architect.svg">
+  <link rel="stylesheet" href="assets/css/output.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+  <section class="flex flex-col md:flex-row min-h-screen">
+
+    <div
+      class="w-full md:w-[400px] lg:w-[450px] bg-white p-8 md:p-12 border-r border-slate-100 flex flex-col desktop-fixed z-20">
+      <a href="index.html"
+        class="flex items-center gap-2 text-black hover:scale-110 transition duration-300 font-semibold text-[18px] mb-12">
+        <span>
+          <img src="assets/svg/arrow-back.svg" alt="">
+        </span>
+        Kembali ke Beranda
+      </a>
+
+      <div class="mb-12">
+        <div class="mb-3">
+          <span>
+            <img src="assets/svg/Ikon-Study-Architect.svg" alt="">
+          </span>
+        </div>
+        <h2 class="text-2xl lg:text-3xl text-[#0A6FEC] font-semibold leading-tight tracking-tighter">
+          Personal Study Architect
+        </h2>
+        <p class="text-slate-400 mt-4 text-sm leading-relaxed text-justify">
+          Konsepnya adalah Smart Journaling. Pelajar sering lupa kemarin belajar apa dan besok mau belajar apa. Dengan
+          fitur ini, mereka bisa "membangun" gedung pengetahuan mereka sendiri per mata pelajaran.
+        </p>
+      </div>
+
+      <div class="space-y-6">
+        <div class="group">
+          <label
+            class="block text-[14px] font-medium text-slate-400 mb-3 tracking-widest group-focus-within:text-blue-600 transition-colors">
+            Mata Pelajaran
+          </label>
+          <input type="text" id="mapel" placeholder="Contoh: B. Inggris / RPL"
+            class="w-full p-5 bg-slate-50 border-2 border-transparent rounded-[12px] focus:border-blue-500 focus:bg-white outline-none transition-all text-sm font-medium">
+        </div>
+
+        <div class="group">
+          <label
+            class="block text-[14px] font-medium text-slate-400 mb-3 tracking-widest group-focus-within:text-blue-600 transition-colors">
+            Topik Materi
+          </label>
+          <textarea id="tugas" placeholder="Tuliskan inti materi yang dipelajari..."
+            class="w-full p-5 bg-slate-50 border-2 border-transparent rounded-[12px] focus:border-blue-500 focus:bg-white outline-none transition-all h-36 text-sm font-medium resize-none"></textarea>
+        </div>
+        <button id="add-btn"
+          class="w-full py-5 bg-blue-600 text-white rounded-[18px] font-medium hover:bg-blue-500 hover:scale-110 transition-all duration-300 shadow-2xl shadow-slate-200 flex items-center justify-center gap-3">
+          <span>
+            <img src="assets/svg/add.svg" alt="">
+          </span>
+          Simpan Tugas ke Log
+        </button>
+      </div>
+    </div>
+
+    <div class="flex-grow p-6 md:p-16 lg:p-24 desktop-scroll custom-scroll">
+
+      <div id="empty-state" class="h-[60vh] flex flex-col items-center justify-center text-center">
+        <div class="p-4">
+          <span>
+            <img src="assets/svg/library.svg" alt="">
+          </span>
+        </div>
+        <h4 class="font-medium text-slate-400">
+          Belum ada progres
+        </h4>
+        <p class="text-sm text-slate-300 mt-2 tracking-widest font-medium text-center">
+          Input data pelajaranmu di samping buat lihat visualisasinya.
+        </p>
+      </div>
+
+      <div id="log-container" class="space-y-16 max-w-[800px] mx-auto">
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="assets/js/study-architect.js"></script>
+</body>
+
+</html>
