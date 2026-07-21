@@ -77,6 +77,8 @@ fitur ini, mereka bisa "membangun" gedung pengetahuan mereka sendiri per mata pe
   <img src="assets/img/study-architect.png" alt="Hero Section" width="900">
 </p>
 
+### Coba Website Disini:
+
 ```bash
-Coba Website disini https://myastudy.vercel.app/
+https://myastudy.vercel.app/
 ```
