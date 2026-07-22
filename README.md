@@ -31,11 +31,19 @@ Jika menggunakan Visual Studio Code:
 2. Cari Live Server
 3. Install extension tersebut
 
+<p align="center">
+  <img src="assets/img/Extension_Live_Server.png" alt="Hero Section" width="900">
+</p>
+
 ### 4. Jalankan Website
 
 Setelah extension terinstall:
 
 Klik tombol “Go Live” di pojok kanan bawah Visual Studio Code
+
+<p align="center">
+  <img src="assets/img/Go_Live_Start.png" alt="Hero Section" width="900">
+</p>
 
 ### 5. Website Berhasil Dijalankan
 
