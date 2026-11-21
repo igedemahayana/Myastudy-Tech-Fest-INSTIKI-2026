@@ -1,13 +1,22 @@
-# Judul Website: Myastudy
+# Judul Website: Myastudy Web Design Tech Fest INSTIKI 2026
 
-# Bidang Lomba: Web Design Tech Fest INSTIKI 2026
+<p >
+  <img src="assets\img\Website-Myastudy.webp" alt="Website Myastudy" width="100%">
+</p>
+
+<p>
+  <a href="https://myastudy.vercel.app/">
+  Klik Link Website</a> 
+</p>
 
 ## Teknologi yang digunakan
 
-1. Figma
-2. HTML
-3. Tailwind
-4. JavaScript
+| Technology   | Description                               |
+| ------------ | ----------------------------------------- |
+| Figma        | Design Website                            |
+| HTML5        | Struktur dan semantic markup website      |
+| Tailwind CSS | Utility-first CSS framework untuk styling |
+| JavaScript   | Bahasa pemrograman untuk interaktivitas   |
 
 ## Cara Menjalankan Project Myastudy
 
@@ -31,7 +40,7 @@ Jika menggunakan Visual Studio Code:
 2. Cari Live Server
 3. Install extension tersebut
 
-<p align="center">
+<p>
   <img src="assets/img/Extension_Live_Server.png" alt="Hero Section" width="900">
 </p>
 
@@ -41,7 +50,7 @@ Setelah extension terinstall:
 
 Klik tombol “Go Live” di pojok kanan bawah Visual Studio Code
 
-<p align="center">
+<p>
   <img src="assets/img/Go_Live_Start.png" alt="Hero Section" width="900">
 </p>
 
@@ -51,13 +60,13 @@ Setelah berhasil, website Myastudy akan otomatis terbuka di browser.
 
 ### Hero Section
 
-<p align="center">
+<p>
   <img src="assets/img/Hero_Section.png" alt="Hero Section" width="900">
 </p>
 
 ### 3 Features Myastudy
 
-<p align="center">
+<p>
   <img src="assets/img/Features.png" alt="Hero Section" width="900">
 </p>
 
@@ -65,7 +74,7 @@ Setelah berhasil, website Myastudy akan otomatis terbuka di browser.
 
 Siswa bisa posting "Quest" Teman lain bisa join buat diskusi dan Belajar bareng nyelesain tugas dari temen lainnya.
 
-<p align="center">
+<p>
   <img src="assets/img/Peer_to_quest.png" alt="Hero Section" width="900">
 </p>
 
@@ -73,7 +82,7 @@ Siswa bisa posting "Quest" Teman lain bisa join buat diskusi dan Belajar bareng 
 
 Fitur ini adalah asisten kesehatan mental & fisik digital yang dirancang khusus untuk pelajar di era AI.
 
-<p align="center">
+<p>
   <img src="assets/img/fatigue-scanner.png" alt="Hero Section" width="900">
 </p>
 
@@ -81,12 +90,6 @@ Fitur ini adalah asisten kesehatan mental & fisik digital yang dirancang khusus 
 
 fitur ini, mereka bisa "membangun" gedung pengetahuan mereka sendiri per mata pelajaran.
 
-<p align="center">
+<p>
   <img src="assets/img/study-architect.png" alt="Hero Section" width="900">
 </p>
-
-### Coba Website Disini:
-
-```bash
-https://myastudy.vercel.app/
-```
